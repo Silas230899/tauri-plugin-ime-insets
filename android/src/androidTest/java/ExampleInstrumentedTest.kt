@@ -1,4 +1,4 @@
-package de.hofmann.ime-insets
+package de.hofmann.ime_insets
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("de.hofmann.ime-insets", appContext.packageName)
+        assertEquals("de.hofmann.ime_insets", appContext.packageName)
     }
 }
