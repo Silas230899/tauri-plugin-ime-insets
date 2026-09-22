@@ -9,7 +9,7 @@ exclude = ["/examples", "/dist-js", "/guest-js", "/node_modules"]
 links = "tauri-plugin-ime-insets"
 
 [dependencies]
-tauri = { version = "2.11.6" }
+tauri = { version = "2.11.2" }
 serde = "1.0"
 thiserror = "2"
 
