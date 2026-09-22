@@ -1,4 +1,4 @@
-package de.hofmann.ime-insets
+package de.hofmann.ime_insets
 
 import android.app.Activity
 import app.tauri.annotation.Command

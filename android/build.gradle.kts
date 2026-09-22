@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "de.hofmann.ime-insets"
+    namespace = "de.hofmann.ime_insets"
     compileSdk = 36
 
     defaultConfig {
