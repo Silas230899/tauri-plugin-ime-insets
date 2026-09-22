@@ -15,7 +15,7 @@ pub fn init<R: Runtime, C: DeserializeOwned>(
   api: PluginApi<R, C>,
 ) -> crate::Result<ImeInsets<R>> {
   #[cfg(target_os = "android")]
-  let handle = api.register_android_plugin("de.hofmann.ime-insets", "ExamplePlugin")?;
+  let handle = api.register_android_plugin("de.hofmann.ime_insets", "ExamplePlugin")?;
   #[cfg(target_os = "ios")]
   let handle = api.register_ios_plugin(init_plugin_ime_insets)?;
   Ok(ImeInsets(handle))

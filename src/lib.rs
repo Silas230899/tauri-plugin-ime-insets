@@ -34,7 +34,7 @@ impl<R: Runtime, T: Manager<R>> crate::ImeInsetsExt<R> for T {
 
 /// Initializes the plugin.
 pub fn init<R: Runtime>() -> TauriPlugin<R> {
-  Builder::new("ime-insets")
+  Builder::new("ime_insets")
     .invoke_handler(tauri::generate_handler![commands::ping])
     .setup(|app, api| {
       #[cfg(mobile)]
